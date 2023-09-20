@@ -1,0 +1,52 @@
+
+  .flex-container >div
+  {
+    
+   text-align: center;
+    display: flex;
+    margin-left: 10px;
+    color: black;
+    margin-top: 20px;
+    /* vertical-align: middle; */
+   
+   
+  }
+  
+.box1{
+    margin-left: 10px;
+}
+  
+  
+  .box1{
+    background-color:brown;
+    padding: 10px;
+    height: 100px;
+    width: 25%;
+    margin-left: 10px;
+
+  }
+  .box2{
+    background-color:wheat;
+    padding: 10px;
+    height: 100px;
+    width: 25%;
+    margin-left: 10px;
+
+  }
+  .box3{
+    background-color:gray;
+    padding: 10px;
+    height: 100px;
+    width: 25%;
+   
+    margin-left: 10px;
+
+  }
+  .box4{
+    background-color:blueviolet;
+    padding: 10px;
+    height: 100px;
+    width: 25%;
+    margin-left: 10px;
+
+  }

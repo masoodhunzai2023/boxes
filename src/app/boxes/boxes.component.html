@@ -1,0 +1,34 @@
+    <div class="flex-container">
+        <h5>EnterAmount</h5>
+        <input type="number" [(ngModel)]="entered_value" placeholder="search">
+
+      <br>
+      <div *ngIf="entered_value >= 0 && entered_value <= 9 " class="box-container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+      </div>
+      <div *ngIf="entered_value >= 501"class="box-container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+      </div>
+        <div class=box1 *ngIf="entered_value >= 10 && entered_value <= 100" class="box1">
+            Box 1: Value range to 10 and 100
+      </div>
+      <div class="box2" *ngIf="entered_value >= 101 && entered_value <= 200" class="box2">
+        Box 2: Value range to  100 and 200.
+      </div>
+      
+      <div class="box3"*ngIf="entered_value >= 201 && entered_value <= 300" class="box3">
+        Box 3: Value range to  200 and 300.
+      </div>
+      
+      <div class="box4"*ngIf="entered_value >= 301 && entered_value <= 500" class="box4">
+        Box 4: Value range to  300 and 500.
+      </div>
+    </div>
+
+  
